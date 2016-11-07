@@ -15,6 +15,11 @@
 		6EAD0D101DB80CBB00A88E9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EAD0D0E1DB80CBB00A88E9E /* Main.storyboard */; };
 		6EAD0D121DB80CBB00A88E9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EAD0D111DB80CBB00A88E9E /* Assets.xcassets */; };
 		6EAD0D151DB80CBC00A88E9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EAD0D131DB80CBC00A88E9E /* LaunchScreen.storyboard */; };
+		6EAD0D1D1DB811E600A88E9E /* MCMovingGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAD0D1C1DB811E600A88E9E /* MCMovingGround.swift */; };
+		6EAD0D1F1DB81E2300A88E9E /* MCPanda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAD0D1E1DB81E2200A88E9E /* MCPanda.swift */; };
+		6EAD0D211DB87CAF00A88E9E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAD0D201DB87CAF00A88E9E /* Constants.swift */; };
+		6EAD0D231DB87E6800A88E9E /* MCCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAD0D221DB87E6800A88E9E /* MCCloud.swift */; };
+		6EAD0D251DB87F1200A88E9E /* MCCloudMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAD0D241DB87F1200A88E9E /* MCCloudMain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		6EAD0D111DB80CBB00A88E9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EAD0D141DB80CBC00A88E9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6EAD0D161DB80CBC00A88E9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EAD0D1C1DB811E600A88E9E /* MCMovingGround.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCMovingGround.swift; sourceTree = "<group>"; };
+		6EAD0D1E1DB81E2200A88E9E /* MCPanda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCPanda.swift; sourceTree = "<group>"; };
+		6EAD0D201DB87CAF00A88E9E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6EAD0D221DB87E6800A88E9E /* MCCloud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCCloud.swift; sourceTree = "<group>"; };
+		6EAD0D241DB87F1200A88E9E /* MCCloudMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCCloudMain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +74,11 @@
 				6EAD0D061DB80CBA00A88E9E /* GameScene.sks */,
 				6EAD0D081DB80CBA00A88E9E /* Actions.sks */,
 				6EAD0D0A1DB80CBB00A88E9E /* GameScene.swift */,
+				6EAD0D221DB87E6800A88E9E /* MCCloud.swift */,
+				6EAD0D241DB87F1200A88E9E /* MCCloudMain.swift */,
+				6EAD0D201DB87CAF00A88E9E /* Constants.swift */,
+				6EAD0D1E1DB81E2200A88E9E /* MCPanda.swift */,
+				6EAD0D1C1DB811E600A88E9E /* MCMovingGround.swift */,
 				6EAD0D0C1DB80CBB00A88E9E /* GameViewController.swift */,
 				6EAD0D0E1DB80CBB00A88E9E /* Main.storyboard */,
 				6EAD0D111DB80CBB00A88E9E /* Assets.xcassets */,
@@ -105,7 +120,6 @@
 				TargetAttributes = {
 					6EAD0D001DB80CBA00A88E9E = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 3H28JH7JAH;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -148,9 +162,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EAD0D251DB87F1200A88E9E /* MCCloudMain.swift in Sources */,
 				6EAD0D0B1DB80CBB00A88E9E /* GameScene.swift in Sources */,
 				6EAD0D0D1DB80CBB00A88E9E /* GameViewController.swift in Sources */,
+				6EAD0D1D1DB811E600A88E9E /* MCMovingGround.swift in Sources */,
 				6EAD0D051DB80CBA00A88E9E /* AppDelegate.swift in Sources */,
+				6EAD0D1F1DB81E2300A88E9E /* MCPanda.swift in Sources */,
+				6EAD0D231DB87E6800A88E9E /* MCCloud.swift in Sources */,
+				6EAD0D211DB87CAF00A88E9E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +290,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3H28JH7JAH;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Panda Run/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cheezy.Panda-Run";
@@ -284,7 +303,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3H28JH7JAH;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Panda Run/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cheezy.Panda-Run";
@@ -312,6 +331,7 @@
 				6EAD0D1B1DB80CBC00A88E9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
